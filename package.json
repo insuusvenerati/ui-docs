@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@react-website-themes/classy-docs": "0.0.23",
-    "emotion": "^9.2.9",
-    "emotion-server": "^9.2.9",
+    "emotion": "11.0.0",
+    "emotion-server": "11.0.0",
     "facepaint": "^1.2.1",
     "gatsby": "4.4.0",
     "gatsby-image": "3.11.0",
@@ -46,7 +46,7 @@
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0-rc.1",
     "babel-eslint": "7.2.3",
-    "babel-plugin-emotion": "^9.2.6",
+    "babel-plugin-emotion": "11.0.0",
     "dotenv": "^6.0.0",
     "eslint": "4.1.1",
     "eslint-config-react-app": "^2.1.0",
