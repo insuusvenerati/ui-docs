@@ -13,8 +13,8 @@ import Layout from '@react-website-themes/classy-docs/components/Layout';
 import Menu from '@react-website-themes/classy-docs/components/Menu';
 import Seo from '@react-website-themes/classy-docs/components/Seo';
 
-import config from 'content/meta/config';
-import menuItems from 'content/meta/menu';
+import config from '../content/meta/config';
+import menuItems from '../content/meta/menu';
 
 const IndexPage = props => {
   const {
@@ -28,14 +28,7 @@ const IndexPage = props => {
     },
   } = props;
 
-  const {
-    headerTitle,
-    headerSubTitle,
-    siteUrl,
-    siteTitle,
-    siteDescription,
-    siteLanguage,
-  } = config;
+  const { headerTitle, headerSubTitle, siteUrl, siteTitle, siteDescription, siteLanguage } = config;
 
   return (
     <Layout>
@@ -48,12 +41,7 @@ const IndexPage = props => {
         <div dangerouslySetInnerHTML={{ __html: heroHTML }} />
       </Hero>
       <Footer links={footerLinksHTML} copyright={copyrightHTML} />
-      <Seo
-        url={siteUrl}
-        language={siteLanguage}
-        title={siteTitle}
-        description={siteDescription}
-      />
+      <Seo url={siteUrl} language={siteLanguage} title={siteTitle} description={siteDescription} />
     </Layout>
   );
 };
@@ -65,21 +53,17 @@ export const query = graphql`
     logo: file(relativePath: { regex: "/logo.png/" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     hero: markdownRemark(fileAbsolutePath: { regex: "/content/parts/hero/" }) {
       html
     }
-    footerLinks: markdownRemark(
-      fileAbsolutePath: { regex: "/content/parts/footerLinks/" }
-    ) {
+    footerLinks: markdownRemark(fileAbsolutePath: { regex: "/content/parts/footerLinks/" }) {
       html
     }
-    copyright: markdownRemark(
-      fileAbsolutePath: { regex: "/content/parts/copyright/" }
-    ) {
+    copyright: markdownRemark(fileAbsolutePath: { regex: "/content/parts/copyright/" }) {
       html
     }
   }

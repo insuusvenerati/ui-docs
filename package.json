@@ -11,15 +11,13 @@
     "lint": "eslint src"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
     "@react-website-themes/classy-docs": "0.0.23",
-    "emotion": "11.0.0",
-    "emotion-server": "11.0.0",
     "facepaint": "^1.2.1",
     "gatsby": "4.4.0",
     "gatsby-image": "3.11.0",
     "gatsby-plugin-catch-links": "4.4.0",
     "gatsby-plugin-emotion": "7.4.0",
-    "gatsby-plugin-google-analytics": "4.4.0",
     "gatsby-plugin-react-helmet": "5.4.0",
     "gatsby-plugin-resolve-src": "2.0.0-beta.1",
     "gatsby-plugin-sharp": "4",
@@ -45,8 +43,9 @@
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0-rc.1",
-    "babel-eslint": "7.2.3",
-    "babel-plugin-emotion": "11.0.0",
+    "@emotion/babel-plugin": "^11.7.2",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-emotion": "^11.0.0",
     "dotenv": "^6.0.0",
     "eslint": "4.1.1",
     "eslint-config-react-app": "^2.1.0",
