@@ -2,6 +2,9 @@
   "name": "gatsby-starter-kit",
   "description": "A set of starters for Gatsby.js v.2",
   "license": "MIT",
+  "engines": {
+    "node": "16.13.1"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
@@ -12,7 +15,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
-    "@react-website-themes/classy-docs": "0.0.23",
+    "@react-website-themes/classy-docs": "^0.0.24",
     "facepaint": "^1.2.1",
     "gatsby": "4.4.0",
     "gatsby-image": "3.11.0",
@@ -42,8 +45,8 @@
     "react-helmet": "6.1.0"
   },
   "devDependencies": {
-    "@emotion/babel-plugin": "^11.7.2",
     "@babel/preset-flow": "7.16.5",
+    "@emotion/babel-plugin": "^11.7.2",
     "babel-eslint": "7.2.3",
     "babel-plugin-emotion": "11.0.0",
     "dotenv": "6.2.0",
@@ -59,5 +62,9 @@
     "prettier": "1.19.1",
     "react-testing-library": "5.9.0",
     "yaml-loader": "0.5.0"
+  },
+  "volta": {
+    "node": "16.13.1",
+    "yarn": "1.22.17"
   }
 }
