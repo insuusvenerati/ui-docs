@@ -27,7 +27,7 @@
     "gatsby-plugin-sitemap": "5.4.0",
     "gatsby-remark-autolink-headers": "5.4.0",
     "gatsby-remark-copy-linked-files": "5.4.0",
-    "gatsby-remark-emojis": "0.2.5",
+    "gatsby-remark-emojis": "0.4.3",
     "gatsby-remark-external-links": "0.0.4",
     "gatsby-remark-images": "6.4.0",
     "gatsby-remark-prismjs": "6.4.0",
