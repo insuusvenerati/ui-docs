@@ -6362,10 +6362,10 @@ gatsby-remark-copy-linked-files@5.4.0:
     probe-image-size "^6.0.0"
     unist-util-visit "^2.0.3"
 
-gatsby-remark-emojis@0.2.5:
-  version "0.2.5"
-  resolved "https://registry.npmjs.org/gatsby-remark-emojis/-/gatsby-remark-emojis-0.2.5.tgz#38b2487ddcc4f2f9033709462f5ad679f4b07adc"
-  integrity sha512-X3K0rh0n+ONZTcnUefY9daxOH2Apph6aIG1Bg7GVmCXtCiSMlNK9e//UriDyTveUcKtefPHnHNgjyFxZgGEdxw==
+gatsby-remark-emojis@0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-emojis/-/gatsby-remark-emojis-0.4.3.tgz#44552fa6782442f23b3ee310d55612e77126f01b"
+  integrity sha512-bOeh3Bu8Oo4Lf8QhERAcVIunD+UBroXPfTkxNEL0yBySo5KZYwib3/gbUHeOUw3VYWGv79BFrVNLL7xuFoWFhw==
 
 gatsby-remark-external-links@0.0.4:
   version "0.0.4"
